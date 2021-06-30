@@ -1,0 +1,24 @@
+{
+    "name": "aletheia",
+    "displayName": "Aletheia",
+    "description": "Dark theme for Aseprite.",
+    "version": "1.0",
+    "author": {
+        "name": "Jeremy Behreandt",
+        "email": "behreandtjeremy@gmail.com",
+        "url": "https://github.com/behreajj"
+    },
+    "contributors": [],
+    "license": "GPL-3.0",
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "id": "Aletheia",
+                "path": "."
+            }
+        ]
+    }
+}
