@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <theme name="Aletheia" screenscaling="1" uiscaling="2">
     <authors>
-        <author name="Jeremy Behreandt" url="https://github.com/behreajj" />
+        <author name="Jeremy Behreandt" url="https://github.com/behreajj/Aletheia" />
     </authors>
     <fonts>
         <font id="default" font="Aseprite" />
@@ -44,7 +44,7 @@
         <color id="select_box_ruler" value="#008FFF" />
         <color id="window_titlebar_text" value="#008FFF" />
         <color id="separator_label" value="#008FFF" />
-        <color id="link_text" value="#0008FF" />
+        <color id="link_text" value="#008FFF" />
         <color id="workspace_link" value="#008FFF" />
         <!-- Don't know what these are. -->
         <color id="flag_active" value="#C75A68" />
@@ -205,12 +205,12 @@
         <part id="mini_slider_thumb_focused" x="48" y="176" w="5" h="4" />
         <part id="separator_horz" x="32" y="80" w="9" h="5" />
         <part id="separator_vert" x="32" y="96" w="5" h="9" />
-        <part id="combobox_arrow_down" x="100" y="148" w="9" h="9" />
-        <part id="combobox_arrow_down_selected" x="116" y="148" w="9" h="9" />
-        <part id="combobox_arrow_down_disabled" x="132" y="148" w="9" h="9" />
-        <part id="combobox_arrow_up" x="100" y="163" w="9" h="9" />
-        <part id="combobox_arrow_up_selected" x="116" y="163" w="9" h="9" />
-        <part id="combobox_arrow_up_disabled" x="132" y="163" w="9" h="9" />
+        <part id="combobox_arrow_down" x="100" y="148" w="9" h="7" />
+        <part id="combobox_arrow_down_selected" x="116" y="148" w="9" h="7" />
+        <part id="combobox_arrow_down_disabled" x="132" y="148" w="9" h="7" />
+        <part id="combobox_arrow_up" x="100" y="163" w="9" h="7" />
+        <part id="combobox_arrow_up_selected" x="116" y="163" w="9" h="7" />
+        <part id="combobox_arrow_up_disabled" x="132" y="163" w="9" h="7" />
         <part id="combobox_arrow_left" x="99" y="180" w="9" h="9" />
         <part id="combobox_arrow_left_selected" x="115" y="180" w="9" h="9" />
         <part id="combobox_arrow_left_disabled" x="131" y="180" w="9" h="9" />
