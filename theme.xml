@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<theme name="Default Dark" screenscaling="1" uiscaling="2">
+<?xml version="1.0" encoding="utf-8" ?>
+<theme name="Aletheia" screenscaling="1" uiscaling="2">
     <authors>
         <author name="Jeremy Behreandt" url="https://github.com/behreajj" />
     </authors>
@@ -30,12 +30,10 @@
         <dim id="color_selector_bar_size" value="8" />
     </dimensions>
     <colors>
-
         <!-- R: 66, G: 173, B: 255 -->
         <!-- H: 206, S: 100, L: 63 -->
         <color id="link_hover" value="#42adff" />
         <color id="workspace_link_hover" value="#42adff" />
-
         <!-- R: 0, G: 143, B: 255 -->
         <!-- H: 206, S: 100, L: 50 -->
         <color id="menuitem_hot_text" value="#008FFF" />
@@ -48,11 +46,9 @@
         <color id="separator_label" value="#008FFF" />
         <color id="link_text" value="#0008FF" />
         <color id="workspace_link" value="#008FFF" />
-
         <!-- Don't know what these are. -->
         <color id="flag_active" value="#C75A68" />
         <color id="select_box_grid" value="#64C864" />
-
         <!-- R: 255, G: 247, B: 213 -->
         <!-- H: 48, S: 99, L: 91 -->
         <color id="text" value="#FFF7D5" />
@@ -76,23 +72,19 @@
         <color id="timeline_focused_text" value="#FFF7D5" />
         <color id="tooltip_text" value="#FFF7D5" />
         <color id="workspace_text" value="#FFF7D5" />
-
         <!-- R: 149, G: 145, B: 127 -->
         <!-- H: 48, S: 9, L: 91 -->
         <color id="entry_suffix" value="#95917F" />
         <color id="tab_normal_text" value="#95917F" />
         <color id="button_normal_text" value="#95917F" />
         <color id="timeline_normal_text" value="#95917F" />
-
         <!-- R: 129, G: 124, B: 104 -->
         <!-- H: 48, S: 10, L: 45 -->
         <color id="detail_text" value="#817c68" new="true" />
-
         <!-- R: 98, G: 94, B: 78 -->
         <!-- H: 48, S: 11, L: 34 -->
         <color id="menuitem_disabled_text" value="#625E4E" />
         <color id="filelist_disabled_row_text" value="#625E4E" />
-
         <!-- R: 39, G: 45, B: 49 -->
         <!-- H: 204, S: 11, L: 17 -->
         <color id="textbox_code_face" value="#272D31" />
@@ -104,7 +96,6 @@
         <color id="radio_hot_face" value="#272D31" />
         <color id="popup_window_border" value="#272D31" />
         <color id="hot_face" value="#272D31" />
-
         <!-- R: 33, G: 38, B: 43 -->
         <!-- H: 210, S: 13, L: 14 -->
         <color id="text_hot" value="#21262B" new="true" />
@@ -123,7 +114,6 @@
         <color id="timeline_hover" value="#21262B" />
         <color id="timeline_active_hover" value="#21262B" />
         <color id="timeline_clicked" value="#21262B" />
-
         <!-- R: 22, G: 26, B: 31 -->
         <!-- H: 213, S: 16, L: 10 -->
         <color id="background" value="#161A1F" />
@@ -132,7 +122,6 @@
         <color id="listitem_normal_face" value="#161A1F" />
         <color id="menuitem_normal_face" value="#161A1F" />
         <color id="window_face" value="#161A1F" />
-
         <!-- R: 17, G: 19, B: 25 -->
         <!-- H: 255, S: 19, L: 8 -->
         <color id="tab_active_face" value="#111319" />
@@ -141,7 +130,6 @@
         <color id="menuitem_hot_face" value="#111319" />
         <color id="menuitem_highlight_face" value="#111319" />
         <color id="status_bar_face" value="#111319" />
-
         <!-- R: 0, G: 0, B: 0 -->
         <!-- H: 0, S: 0, L: 0 -->
         <color id="editor_sprite_border" value="#000000" />
