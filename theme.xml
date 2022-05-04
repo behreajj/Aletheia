@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <theme name="Aletheia" screenscaling="1" uiscaling="2">
     <authors>
         <author name="Jeremy Behreandt" url="https://github.com/behreajj/Aletheia" />
@@ -70,7 +70,7 @@
         <color id="tooltip_text" value="#FFF7D5" />
         <color id="workspace_text" value="#FFF7D5" />
         <!-- R: 149, G: 145, B: 127 -->
-        <!-- H: 48, S: 9, L: 91 -->        
+        <!-- H: 48, S: 9, L: 91 -->
         <color id="button_normal_text" value="#95917F" />
         <color id="entry_suffix" value="#95917F" />
         <color id="tab_normal_text" value="#95917F" />
@@ -102,7 +102,7 @@
         <color id="flag_clicked" value="#21262B" />
         <color id="radio_focus_face" value="#21262B" />
         <color id="text_hot" value="#21262B" new="true" />
-        <color id="textbox_face" value="#21262B" />        
+        <color id="textbox_face" value="#21262B" />
         <color id="timeline_active_hover" value="#21262B" />
         <color id="timeline_band_bg" value="#21262B" />
         <color id="timeline_band_highlight" value="#21262B" />
@@ -146,24 +146,24 @@
         <part id="cursor_scroll" x="80" y="64" w="16" h="16" focusx="8" focusy="8" />
         <part id="cursor_move" x="80" y="80" w="16" h="16" focusx="0" focusy="0" />
         <part id="cursor_move_selection" x="96" y="80" w="16" h="16" focusx="0" focusy="0" />
-        <part id="cursor_size_ns" x="80" y="112" w="16" h="16" focusx="8" focusy="8" />
-        <part id="cursor_size_we" x="80" y="144" w="16" h="16" focusx="8" focusy="8" />
-        <part id="cursor_size_n" x="80" y="112" w="16" h="16" focusx="8" focusy="8" />
-        <part id="cursor_size_ne" x="80" y="128" w="16" h="16" focusx="8" focusy="8" />
-        <part id="cursor_size_e" x="80" y="160" w="16" h="16" focusx="8" focusy="8" />
-        <part id="cursor_size_se" x="80" y="208" w="16" h="16" focusx="8" focusy="8" />
-        <part id="cursor_size_s" x="80" y="192" w="16" h="16" focusx="8" focusy="8" />
-        <part id="cursor_size_sw" x="80" y="176" w="16" h="16" focusx="8" focusy="8" />
-        <part id="cursor_size_w" x="80" y="144" w="16" h="16" focusx="8" focusy="8" />
-        <part id="cursor_size_nw" x="80" y="96" w="16" h="16" focusx="8" focusy="8" />
-        <part id="cursor_rotate_n" x="240" y="192" w="16" h="16" focusx="8" focusy="8" />
-        <part id="cursor_rotate_ne" x="256" y="160" w="16" h="16" focusx="8" focusy="8" />
-        <part id="cursor_rotate_e" x="256" y="176" w="16" h="16" focusx="8" focusy="8" />
-        <part id="cursor_rotate_se" x="256" y="208" w="16" h="16" focusx="8" focusy="8" />
-        <part id="cursor_rotate_s" x="256" y="192" w="16" h="16" focusx="8" focusy="8" />
-        <part id="cursor_rotate_sw" x="240" y="208" w="16" h="16" focusx="8" focusy="8" />
-        <part id="cursor_rotate_w" x="240" y="176" w="16" h="16" focusx="8" focusy="8" />
-        <part id="cursor_rotate_nw" x="240" y="160" w="16" h="16" focusx="8" focusy="8" />
+        <part id="cursor_size_n" x="85" y="113" w="7" h="14" focusx="3" focusy="5" />
+        <part id="cursor_size_ns" x="85" y="113" w="7" h="14" focusx="3" focusy="5" />
+        <part id="cursor_size_ne" x="83" y="131" w="11" h="11" focusx="5" focusy="5" />
+        <part id="cursor_size_e" x="81" y="148" w="14" h="7" focusx="7" focusy="3" />
+        <part id="cursor_size_we" x="81" y="148" w="14" h="7" focusx="6" focusy="3" />
+        <part id="cursor_size_se" x="82" y="211" w="11" h="11" focusx="5" focusy="5" />
+        <part id="cursor_size_s" x="84" y="193" w="7" h="14" focusx="3" focusy="7" />
+        <part id="cursor_size_sw" x="83" y="179" w="11" h="11" focusx="5" focusy="5" />
+        <part id="cursor_size_w" x="81" y="165" w="14" h="7" focusx="6" focusy="3" />
+        <part id="cursor_size_nw" x="82" y="99" w="11" h="11" focusx="5" focusy="5" />
+        <part id="cursor_rotate_n" x="241" y="197" w="13" h="8" focusx="6" focusy="4" />
+        <part id="cursor_rotate_ne" x="258" y="162" w="12" h="12" focusx="5" focusy="6" />
+        <part id="cursor_rotate_e" x="260" y="178" w="8" h="13" focusx="3" focusy="6" />
+        <part id="cursor_rotate_se" x="258" y="210" w="12" h="12" focusx="5" focusy="5" />
+        <part id="cursor_rotate_s" x="258" y="197" w="13" h="8" focusx="6" focusy="3" />
+        <part id="cursor_rotate_sw" x="242" y="210" w="12" h="12" focusx="6" focusy="5" />
+        <part id="cursor_rotate_w" x="244" y="178" w="8" h="13" focusx="4" focusy="4" />
+        <part id="cursor_rotate_nw" x="242" y="162" w="12" h="12" focusx="6" focusy="6" />
         <part id="cursor_eyedropper" x="80" y="224" w="16" h="16" focusx="0" focusy="15" />
         <part id="cursor_magnifier" x="80" y="240" w="16" h="16" focusx="5" focusy="5" />
         <part id="radio_normal" x="64" y="64" w="8" h="8" />
@@ -454,14 +454,14 @@
         <part id="tiles_manual" x="150" y="208" w="6" h="6" />
         <part id="tiles_auto" x="156" y="208" w="6" h="6" />
         <part id="tiles_stack" x="162" y="208" w="6" h="6" />
-        <part id="cursor_skew_n" x="272" y="192" w="16" h="16" focusx="8" focusy="8" />
-        <part id="cursor_skew_s" x="288" y="192" w="16" h="16" focusx="8" focusy="8" />
-        <part id="cursor_skew_sw" x="272" y="208" w="16" h="16" focusx="8" focusy="8" />
-        <part id="cursor_skew_se" x="288" y="208" w="16" h="16" focusx="8" focusy="8" />
-        <part id="cursor_skew_w" x="272" y="176" w="16" h="16" focusx="8" focusy="8" />
-        <part id="cursor_skew_e" x="288" y="176" w="16" h="16" focusx="8" focusy="8" />
-        <part id="cursor_skew_nw" x="272" y="160" w="16" h="16" focusx="8" focusy="8" />
-        <part id="cursor_skew_ne" x="288" y="160" w="16" h="16" focusx="8" focusy="8" />
+        <part id="cursor_skew_n" x="273" y="193" w="14" h="14" focusx="7" focusy="7" />
+        <part id="cursor_skew_s" x="289" y="193" w="14" h="14" focusx="7" focusy="7" />
+        <part id="cursor_skew_sw" x="273" y="210" w="14" h="12" focusx="6" focusy="5" />
+        <part id="cursor_skew_se" x="290" y="209" w="12" h="14" focusx="5" focusy="7" />
+        <part id="cursor_skew_w" x="273" y="177" w="14" h="14" focusx="7" focusy="7" />
+        <part id="cursor_skew_e" x="289" y="177" w="14" h="14" focusx="7" focusy="7" />
+        <part id="cursor_skew_nw" x="274" y="161" w="12" h="14" focusx="6" focusy="6" />
+        <part id="cursor_skew_ne" x="289" y="162" w="14" h="12" focusx="7" focusy="6" />
     </parts>
     <styles>
         <style id="box" />
