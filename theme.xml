@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <theme name="Aletheia" screenscaling="1" uiscaling="2">
     <authors>
         <author name="Jeremy Behreandt" url="https://github.com/behreajj/Aletheia" />
@@ -140,7 +140,7 @@
     <parts>
         <part id="cursor_normal" x="82" y="2" w="11" h="11" focusx="0" focusy="0" />
         <part id="cursor_normal_add" x="80" y="16" w="16" h="16" focusx="0" focusy="0" />
-        <part id="cursor_crosshair" x="96" y="32" w="16" h="16" focusx="7" focusy="7" />
+        <part id="cursor_crosshair" x="96" y="32" w="15" h="15" focusx="7" focusy="7" />
         <part id="cursor_forbidden" x="80" y="32" w="9" h="9" focusx="0" focusy="0" />
         <part id="cursor_hand" x="80" y="48" w="16" h="16" focusx="5" focusy="3" />
         <part id="cursor_scroll" x="80" y="64" w="16" h="16" focusx="8" focusy="8" />
@@ -351,6 +351,9 @@
         <part id="drop_pixels_cancel" x="192" y="176" w="7" h="8" />
         <part id="drop_pixels_cancel_selected" x="192" y="184" w="7" h="8" />
         <part id="warning_box" x="112" y="80" w="9" h="10" />
+
+        <!-- Used in Sprite Canvas Size -->
+        <part id="canvas_empty" x="96" y="96" w="1" h="1" />
         <part id="canvas_nw" x="96" y="96" w="16" h="16" />
         <part id="canvas_n" x="112" y="96" w="16" h="16" />
         <part id="canvas_ne" x="128" y="96" w="16" h="16" />
@@ -360,7 +363,6 @@
         <part id="canvas_sw" x="96" y="128" w="16" h="16" />
         <part id="canvas_s" x="112" y="128" w="16" h="16" />
         <part id="canvas_se" x="128" y="128" w="16" h="16" />
-        <part id="canvas_empty" x="96" y="96" w="1" h="1" />
         <part id="ink_simple" x="144" y="144" w="16" h="16" />
         <part id="ink_alpha_compositing" x="160" y="144" w="16" h="16" />
         <part id="ink_copy_color" x="144" y="160" w="16" h="16" />
