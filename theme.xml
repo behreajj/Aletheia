@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <theme name="Aletheia" screenscaling="1" uiscaling="2">
     <authors>
         <author name="Jeremy Behreandt" url="https://github.com/behreajj/Aletheia" />
@@ -134,7 +134,7 @@
         <color id="editor_view_face" value="#000000" />
         <color id="palette_entries_separator" value="#000000" />
         <!--Misc.-->
-        <color id="flag_active" value="#C75A68" />
+        <color id="flag_active" value="#FF2828" />
         <color id="select_box_grid" value="#64C864" />
     </colors>
     <parts>
@@ -274,18 +274,14 @@
         <part id="pal_presets" x="160" y="200" w="5" h="5" />
         <part id="pal_options" x="168" y="200" w="5" h="5" />
         <part id="pal_resize" x="176" y="200" w="5" h="5" />
+        <!-- Debug. -->
         <part id="debug_continue" x="208" y="240" w="7" h="7" />
         <part id="debug_pause" x="208" y="247" w="7" h="7" />
         <part id="debug_step_into" x="222" y="240" w="7" h="7" />
         <part id="debug_step_over" x="215" y="240" w="7" h="7" />
         <part id="debug_step_out" x="229" y="240" w="7" h="7" />
         <part id="debug_breakpoint" x="236" y="240" w="7" h="7" />
-        <part id="selection_replace" x="176" y="160" w="7" h="7" />
-        <part id="selection_add" x="184" y="160" w="7" h="7" />
-        <part id="selection_subtract" x="192" y="160" w="7" h="7" />
-        <part id="selection_intersect" x="200" y="160" w="7" h="7" />
-        <part id="unpinned" x="192" y="144" w="8" h="8" />
-        <part id="pinned" x="200" y="144" w="8" h="8" />
+        <!-- Dropdown. -->
         <part id="drop_down_button_left_normal" x="48" y="32" w1="3" w2="2" w3="3" h1="4" h2="6" h3="6" />
         <part id="drop_down_button_left_hot" x="64" y="32" w1="3" w2="2" w3="3" h1="4" h2="6" h3="6" />
         <part id="drop_down_button_left_focused" x="48" y="48" w1="3" w2="2" w3="3" h1="4" h2="6" h3="6" />
@@ -294,6 +290,12 @@
         <part id="drop_down_button_right_hot" x="72" y="32" w1="2" w2="1" w3="3" h1="4" h2="6" h3="6" />
         <part id="drop_down_button_right_focused" x="55" y="48" w1="2" w2="2" w3="3" h1="4" h2="6" h3="6" />
         <part id="drop_down_button_right_selected" x="71" y="48" w1="2" w2="2" w3="3" h1="4" h2="6" h3="6" />
+        <part id="selection_replace" x="176" y="160" w="7" h="7" />
+        <part id="selection_add" x="184" y="160" w="7" h="7" />
+        <part id="selection_subtract" x="192" y="160" w="7" h="7" />
+        <part id="selection_intersect" x="200" y="160" w="7" h="7" />
+        <part id="unpinned" x="192" y="144" w="8" h="8" />
+        <part id="pinned" x="200" y="144" w="8" h="8" />
         <part id="transformation_handle" x="208" y="144" w="5" h="5" />
         <part id="pivot_handle" x="224" y="144" w="9" h="9" />
         <part id="timeline_none" x="228" y="0" w1="2" w2="8" w3="2" h1="2" h2="8" h3="2" />
@@ -331,6 +333,7 @@
         <part id="timeline_left_link_active" x="264" y="84" w1="3" w2="9" w3="0" h1="4" h2="1" h3="7" />
         <part id="timeline_both_links_active" x="264" y="96" w1="0" w2="12" w3="0" h1="4" h2="1" h3="7" />
         <part id="timeline_right_link_active" x="264" y="108" w1="0" w2="9" w3="3" h1="4" h2="1" h3="7" />
+        <!-- This is also used as the icon for paint bucket and gradient. -->
         <part id="timeline_gear" x="264" y="12" w="12" h="12" />
         <part id="timeline_gear_active" x="264" y="24" w="12" h="12" />
         <part id="timeline_onionskin" x="264" y="36" w="12" h="12" />
