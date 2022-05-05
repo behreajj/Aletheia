@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <theme name="Aletheia" screenscaling="1" uiscaling="2">
     <authors>
         <author name="Jeremy Behreandt" url="https://github.com/behreajj/Aletheia" />
@@ -351,7 +351,6 @@
         <part id="drop_pixels_cancel" x="192" y="176" w="7" h="8" />
         <part id="drop_pixels_cancel_selected" x="192" y="184" w="7" h="8" />
         <part id="warning_box" x="112" y="80" w="9" h="10" />
-
         <!-- Used in Sprite Canvas Size -->
         <part id="canvas_empty" x="96" y="96" w="1" h="1" />
         <part id="canvas_nw" x="96" y="96" w="16" h="16" />
