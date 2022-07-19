@@ -493,6 +493,7 @@
         <part id="simple_color_border" x="16" y="32" w1="3" w2="6" w3="3" h1="3" h2="6" h3="3" />
         <part id="simple_color_selected" x="32" y="32" w1="3" w2="6" w3="3" h1="3" h2="6" h3="3" />
         <part id="icon_aspect_ratio" x="256" y="264" w="10" h="8" />
+        <part id="icon_delta" x="266" y="264" w="6" h="8" />
         <part id="dynamics" x="176" y="144" w="16" h="16" />
     </parts>
     <styles>
