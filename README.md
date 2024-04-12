@@ -80,7 +80,7 @@ dlg:check {
     id = "useSeparator",
     label = "Enable: ",
     text = "Separator",
-    value = app.preferences.color_bar.entries_separator,
+    selected = app.preferences.color_bar.entries_separator,
     onclick = function()
         app.preferences.color_bar.entries_separator = dlg.data.useSeparator
     end
