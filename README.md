@@ -2,7 +2,7 @@
 
 ![Screen Capture](screenCap.png)
 
-A dark theme for Aseprite. Tested with version 1.3.
+A dark theme for Aseprite. Tested with version 1.3.5.
 
 ## Installation
 
@@ -29,8 +29,10 @@ Themes are typically packaged in a `.zip` file which is then changed to an `.ase
   - Empty cels do not have circles.
   - Red-blue color onion skin frame on timeline.
   - Gear and onion skin icons.
+  - Tinted tag regions.
 - Tools:
   - Paint bucket.
+  - Slice tool flipped to distinguish from eyedropper.
 
 ## Scale
 
