@@ -151,10 +151,10 @@
         <part id="aseprite_face_mouse" x="28" y="272" w="28" h="30" />
         <part id="aseprite_face_pushed" x="56" y="272" w="28" h="30" />
         <!-- Button -->
-        <part id="button_normal" x="48" y="0" w1="5" w2="5" w3="4" h1="4" h2="6" h3="6" />
-        <part id="button_hot" x="64" y="0" w1="5" w2="5" w3="4" h1="4" h2="6" h3="6" />
-        <part id="button_focused" x="48" y="16" w1="5" w2="5" w3="4" h1="4" h2="6" h3="6" />
-        <part id="button_selected" x="64" y="16" w1="5" w2="5" w3="4" h1="4" h2="6" h3="6" />
+        <part id="button_normal" x="48" y="0" w1="3" w2="8" w3="3" h1="2" h2="10" h3="4" />
+        <part id="button_hot" x="64" y="0" w1="3" w2="8" w3="3" h1="2" h2="10" h3="4" />
+        <part id="button_focused" x="48" y="16" w1="4" w2="6" w3="4" h1="4" h2="6" h3="6" />
+        <part id="button_selected" x="64" y="16" w1="4" w2="6" w3="4" h1="4" h2="7" h3="5" />
         <!-- Sprite Canvas Size Menu -->
         <part id="canvas_empty" x="96" y="96" w="1" h="1" />
         <part id="canvas_nw" x="96" y="96" w="16" h="16" />
@@ -316,27 +316,27 @@
         <part id="separator_horz" x="32" y="80" w="9" h="5" />
         <part id="separator_vert" x="32" y="96" w="5" h="9" />
         <!-- Slider -->
-        <part id="slider_full" x="0" y="144" w1="6" w2="5" w3="5" h1="5" h2="5" h3="6" />
-        <part id="slider_empty" x="16" y="144" w1="6" w2="5" w3="5" h1="5" h2="5" h3="6" />
-        <part id="slider_full_focused" x="0" y="160" w1="6" w2="5" w3="5" h1="5" h2="5" h3="6" />
-        <part id="slider_empty_focused" x="16" y="160" w1="6" w2="5" w3="5" h1="5" h2="5" h3="6" />
+        <part id="slider_full" x="0" y="144" w1="3" w2="10" w3="3" h1="3" h2="8" h3="5" />
+        <part id="slider_empty" x="16" y="144" w1="3" w2="10" w3="3" h1="3" h2="9" h3="4" />
+        <part id="slider_full_focused" x="0" y="160" w1="5" w2="6" w3="5" h1="5" h2="6" h3="5" />
+        <part id="slider_empty_focused" x="16" y="160" w1="5" w2="6" w3="5" h1="5" h2="6" h3="5" />
         <!-- Slider (Mini) -->
-        <part id="mini_slider_full" x="32" y="144" w1="3" w2="11" w3="2" h1="2" h2="11" h3="3" />
-        <part id="mini_slider_empty" x="48" y="144" w1="3" w2="11" w3="2" h1="2" h2="11" h3="3" />
-        <part id="mini_slider_full_focused" x="32" y="160" w1="3" w2="11" w3="2" h1="2" h2="11" h3="3" />
-        <part id="mini_slider_empty_focused" x="48" y="160" w1="3" w2="11" w3="2" h1="2" h2="11" h3="3" />
+        <part id="mini_slider_full" x="32" y="144" w1="2" w2="12" w3="2" h1="2" h2="11" h3="3" />
+        <part id="mini_slider_empty" x="48" y="144" w1="2" w2="12" w3="2" h1="2" h2="11" h3="3" />
+        <part id="mini_slider_full_focused" x="32" y="160" w1="2" w2="12" w3="2" h1="2" h2="11" h3="3" />
+        <part id="mini_slider_empty_focused" x="48" y="160" w1="2" w2="12" w3="2" h1="2" h2="11" h3="3" />
         <part id="mini_slider_thumb" x="32" y="176" w="5" h="4" />
         <part id="mini_slider_thumb_focused" x="48" y="176" w="5" h="4" />
         <!-- Sunken -->
-        <part id="sunken_normal" x="0" y="32" w1="5" w2="3" w3="4" h1="4" h2="4" h3="4" />
-        <part id="sunken_focused" x="0" y="48" w1="5" w2="3" w3="4" h1="4" h2="4" h3="4" />
-        <part id="sunken2_normal" x="0" y="64" w1="6" w2="5" w3="5" h1="5" h2="6" h3="5" />
-        <part id="sunken2_focused" x="0" y="80" w1="6" w2="5" w3="5" h1="5" h2="6" h3="5" />
+        <part id="sunken_normal" x="1" y="33" w1="3" w2="4" w3="3" h1="3" h2="5" h3="2" />
+        <part id="sunken_focused" x="0" y="48" w1="4" w2="4" w3="4" h1="4" h2="4" h3="4" />
+        <part id="sunken2_normal" x="0" y="64" w1="4" w2="9" w3="3" h1="4" h2="8" h3="4" />
+        <part id="sunken2_focused" x="0" y="80" w1="4" w2="8" w3="4" h1="4" h2="8" h3="4" />
         <part id="sunken_mini_normal" x="16" y="64" w1="5" w2="3" w3="4" h1="3" h2="6" h3="3" />
-        <part id="sunken_mini_focused" x="16" y="80" w1="5" w2="3" w3="4" h1="3" h2="6" h3="3" />
+        <part id="sunken_mini_focused" x="16" y="80" w1="4" w2="4" w3="4" h1="3" h2="6" h3="3" />
         <!-- Tab -->
-        <part id="tab_normal" x="2" y="112" w1="5" w2="4" w3="5" h1="4" h2="6" h3="2" />
-        <part id="tab_active" x="16" y="112" w1="5" w2="6" w3="5" h1="4" h2="6" h3="2" />
+        <part id="tab_normal" x="2" y="112" w1="4" w2="5" w3="5" h1="3" h2="7" h3="2" />
+        <part id="tab_active" x="16" y="112" w1="2" w2="11" w3="3" h1="2" h2="8" h3="2" />
         <part id="tab_bottom_active" x="16" y="124" w1="5" w2="6" w3="5" h1="2" h2="1" h3="2" />
         <part id="tab_bottom_normal" x="2" y="124" w="12" h="5" />
         <part id="tab_filler" x="0" y="112" w="2" h="12" />
@@ -373,8 +373,8 @@
         <part id="timeline_open_group_active" x="288" y="72" w="12" h="12" />
         <part id="timeline_empty_frame_normal" x="240" y="60" w1="6" w2="2" w3="4" h1="5" h2="3" h3="4" />
         <part id="timeline_empty_frame_active" x="252" y="60" w1="6" w2="2" w3="4" h1="5" h2="3" h3="4" />
-        <part id="timeline_keyframe_normal" x="240" y="72" w1="6" w2="2" w3="4" h1="5" h2="3" h3="4" />
-        <part id="timeline_keyframe_active" x="252" y="72" w1="6" w2="2" w3="4" h1="5" h2="3" h3="4" />
+        <part id="timeline_keyframe_normal" x="240" y="72" w1="5" w2="3" w3="4" h1="5" h2="3" h3="4" />
+        <part id="timeline_keyframe_active" x="252" y="72" w1="5" w2="3" w3="4" h1="5" h2="3" h3="4" />
         <part id="timeline_from_left_normal" x="240" y="84" w1="1" w2="7" w3="4" h1="5" h2="3" h3="4" />
         <part id="timeline_from_left_active" x="252" y="84" w1="1" w2="7" w3="4" h1="5" h2="3" h3="4" />
         <part id="timeline_from_right_normal" x="240" y="96" w1="6" w2="6" w3="0" h1="5" h2="3" h3="4" />
@@ -434,7 +434,7 @@
         <part id="tiles_auto" x="156" y="208" w="6" h="6" />
         <part id="tiles_stack" x="162" y="208" w="6" h="6" />
         <!-- Window -->
-        <part id="window" x="0" y="0" w1="4" w2="6" w3="3" h1="15" h2="4" h3="5" />
+        <part id="window" x="0" y="0" w1="3" w2="7" w3="3" h1="2" h2="17" h3="5" />
         <part id="window_button_normal" x="16" y="0" w="9" h="11" />
         <part id="window_button_hot" x="25" y="0" w="9" h="11" />
         <part id="window_button_selected" x="34" y="0" w="9" h="11" />
@@ -450,13 +450,13 @@
         <part id="buttonset_item_hot_focused" x="128" y="0" w1="4" w2="9" w3="3" h1="3" h2="9" h3="4" />
         <part id="buttonset_item_focused" x="128" y="16" w1="4" w2="9" w3="3" h1="3" h2="9" h3="4" />
         <part id="buttonset_item_pushed" x="112" y="16" w1="4" w2="9" w3="3" h1="3" h2="9" h3="4" />
-        <part id="editor_normal" x="40" y="96" w1="4" w2="9" w3="3" h1="3" h2="10" h3="3" />
-        <part id="editor_selected" x="56" y="96" w1="4" w2="9" w3="3" h1="3" h2="10" h3="3" />
+        <part id="editor_normal" x="40" y="96" w1="3" w2="10" w3="3" h1="4" h2="9" h3="3" />
+        <part id="editor_selected" x="56" y="96" w1="4" w2="9" w3="3" h1="4" h2="9" h3="3" />
         <part id="folder_icon_small" x="144" y="272" w="10" h="8" />
         <part id="folder_icon_big" x="176" y="272" w="32" h="32" />
         <part id="folder_icon_medium" x="160" y="272" w="16" h="16" />
         <part id="list_view" x="96" y="224" w="9" h="9" />
-        <part id="menu" x="0" y="96" w1="4" w2="9" w3="3" h1="3" h2="9" h3="4" />
+        <part id="menu" x="0" y="96" w1="3" w2="10" w3="3" h1="3" h2="10" h3="3" />
         <part id="newfolder" x="99" y="211" w="9" h="9" />
         <part id="newfolder_selected" x="115" y="211" w="9" h="9" />
         <part id="small_icon_view" x="105" y="224" w="9" h="9" />
@@ -465,16 +465,16 @@
         <part id="toolbutton_hot" x="112" y="0" w1="4" w2="9" w3="3" h1="3" h2="9" h3="4" />
         <part id="toolbutton_last" x="96" y="16" w1="4" w2="9" w3="3" h1="3" h2="9" h3="4" />
         <part id="toolbutton_pushed" x="112" y="16" w1="4" w2="9" w3="3" h1="3" h2="9" h3="4" />
-        <part id="scrollbar_bg" x="64" y="144" w1="6" w2="5" w3="5" h1="5" h2="6" h3="5" />
-        <part id="scrollbar_thumb" x="64" y="160" w1="6" w2="5" w3="5" h1="5" h2="6" h3="5" />
-        <part id="mini_scrollbar_bg" x="64" y="176" w1="4" w2="1" w3="3" h1="3" h2="2" h3="3" />
-        <part id="mini_scrollbar_thumb" x="72" y="176" w1="4" w2="1" w3="3" h1="3" h2="2" h3="3" />
-        <part id="mini_scrollbar_bg_hot" x="64" y="184" w1="4" w2="1" w3="3" h1="3" h2="2" h3="3" />
-        <part id="mini_scrollbar_thumb_hot" x="72" y="184" w1="4" w2="1" w3="3" h1="3" h2="2" h3="3" />
-        <part id="transparent_scrollbar_bg" x="64" y="192" w1="4" w2="1" w3="3" h1="3" h2="2" h3="3" />
-        <part id="transparent_scrollbar_thumb" x="72" y="192" w1="4" w2="1" w3="3" h1="3" h2="2" h3="3" />
-        <part id="transparent_scrollbar_bg_hot" x="64" y="200" w1="4" w2="1" w3="3" h1="3" h2="2" h3="3" />
-        <part id="transparent_scrollbar_thumb_hot" x="72" y="200" w1="4" w2="1" w3="3" h1="3" h2="2" h3="3" />
+        <part id="scrollbar_bg" x="64" y="144" w1="3" w2="10" w3="3" h1="2" h2="11" h3="3" />
+        <part id="scrollbar_thumb" x="64" y="160" w1="4" w2="8" w3="4" h1="2" h2="11" h3="3" />
+        <part id="mini_scrollbar_bg" x="64" y="176" w1="2" w2="4" w3="2" h1="2" h2="4" h3="2" />
+        <part id="mini_scrollbar_thumb" x="72" y="176" w1="3" w2="3" w3="2" h1="3" h2="3" h3="2" />
+        <part id="mini_scrollbar_bg_hot" x="64" y="184" w1="2" w2="4" w3="2" h1="2" h2="4" h3="2" />
+        <part id="mini_scrollbar_thumb_hot" x="72" y="184" w1="3" w2="3" w3="2" h1="3" h2="3" h3="2" />
+        <part id="transparent_scrollbar_bg" x="64" y="192" w1="2" w2="4" w3="2" h1="2" h2="4" h3="2" />
+        <part id="transparent_scrollbar_thumb" x="72" y="192" w1="3" w2="2" w3="3" h1="3" h2="2" h3="3" />
+        <part id="transparent_scrollbar_bg_hot" x="64" y="200" w1="2" w2="4" w3="2" h1="2" h2="4" h3="2" />
+        <part id="transparent_scrollbar_thumb_hot" x="72" y="200" w1="3" w2="2" w3="3" h1="3" h2="2" h3="3" />
         <part id="tooltip" x="112" y="64" w1="6" w2="5" w3="5" h1="5" h2="5" h3="6" />
         <part id="tooltip_arrow" x="128" y="64" w1="6" w2="5" w3="5" h1="5" h2="5" h3="6" />
         <part id="unpinned" x="192" y="144" w="8" h="8" />
@@ -492,8 +492,8 @@
         <part id="no_symmetry" x="144" y="240" w="13" h="13" />
         <part id="horizontal_symmetry" x="160" y="240" w="13" h="13" />
         <part id="vertical_symmetry" x="176" y="240" w="13" h="13" />
-        <part id="simple_color_border" x="16" y="32" w1="4" w2="5" w3="3" h1="3" h2="6" h3="3" />
-        <part id="simple_color_selected" x="32" y="32" w1="4" w2="5" w3="3" h1="3" h2="6" h3="3" />
+        <part id="simple_color_border" x="17" y="33" w1="2" w2="6" w3="2" h1="3" h2="5" h3="2" />
+        <part id="simple_color_selected" x="32" y="32" w1="3" w2="6" w3="3" h1="3" h2="6" h3="3" />
         <part id="icon_aspect_ratio" x="256" y="264" w="10" h="8" />
         <part id="icon_delta" x="266" y="264" w="6" h="8" />
         <part id="dynamics" x="176" y="144" w="16" h="16" />
